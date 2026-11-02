@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="8ebpodnjIKKasW-Qu2Cz">
+    <mxGraphModel dx="1438" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y6XRaiArdMidOz1Zpcve-40" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Enough valid data on macthing dates?" vertex="1">
+          <mxGeometry height="110" width="140" x="-50" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Python calculates percent return, volatility, and max drawdown" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-52" edge="1" parent="1" source="y6XRaiArdMidOz1Zpcve-40" style="endArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="y6XRaiArdMidOz1Zpcve-51" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="344.5" as="sourcePoint" />
+            <mxPoint x="180" y="344.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-53" connectable="0" parent="y6XRaiArdMidOz1Zpcve-52" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;fontSize=12;defaultLabelBackgroundColor=page;" value="Yes, Matched Price Data" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-58" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Flask and Jinja display an HTML comparison table" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-59" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="End" vertex="1">
+          <mxGeometry height="55" width="70" x="770" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-60" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="342" as="sourcePoint" />
+            <mxPoint x="530" y="342.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-61" connectable="0" parent="y6XRaiArdMidOz1Zpcve-60" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;fontSize=12;defaultLabelBackgroundColor=page;" value="Calculated Metrics" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-62" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="y6XRaiArdMidOz1Zpcve-59" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="342" as="sourcePoint" />
+            <mxPoint x="730" y="342" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-63" connectable="0" parent="y6XRaiArdMidOz1Zpcve-62" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;fontSize=12;defaultLabelBackgroundColor=page;" value="Comparison Complete" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-64" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="470" as="sourcePoint" />
+            <mxPoint x="160" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-65" connectable="0" parent="y6XRaiArdMidOz1Zpcve-64" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;fontSize=12;defaultLabelBackgroundColor=page;" value="No, Missing or invalid data" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-67" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="y6XRaiArdMidOz1Zpcve-40" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="20" y="470" as="sourcePoint" />
+            <mxPoint x="330" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-74" edge="1" parent="1" source="y6XRaiArdMidOz1Zpcve-68" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" value="Retry selection">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="470.1176470588234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-68" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Display error message" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-75" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="HTML/CSS form: Select two stocks" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-76" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="y6XRaiArdMidOz1Zpcve-79" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="470" as="sourcePoint" />
+            <mxPoint x="650" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-77" connectable="0" parent="y6XRaiArdMidOz1Zpcve-76" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;fontSize=12;defaultLabelBackgroundColor=page;" value="Submit stock symbols" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Flask recieves selections&lt;br&gt;pPython reads local CSV files" vertex="1">
+          <mxGeometry height="60" width="190" x="660" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-81" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="y6XRaiArdMidOz1Zpcve-59" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="805" y="438.86" as="sourcePoint" />
+            <mxPoint x="640" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-82" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Start" vertex="1">
+          <mxGeometry height="55" width="70" x="395" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-84" edge="1" parent="1" source="y6XRaiArdMidOz1Zpcve-82" style="endArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="y6XRaiArdMidOz1Zpcve-75" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="260" as="sourcePoint" />
+            <mxPoint x="640" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-85" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Open website" vertex="1">
+          <mxGeometry height="30" width="80" x="425" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-87" edge="1" parent="1" source="y6XRaiArdMidOz1Zpcve-79" style="endArrow=none;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="690" y="440" as="sourcePoint" />
+            <mxPoint x="755" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-88" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="180" as="sourcePoint" />
+            <mxPoint y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-89" connectable="0" parent="y6XRaiArdMidOz1Zpcve-88" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;fontSize=12;defaultLabelBackgroundColor=page;" value="Validate data and align dates" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y6XRaiArdMidOz1Zpcve-91" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;curved=1;entryX=0.414;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" target="y6XRaiArdMidOz1Zpcve-40" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="10" y="180" as="sourcePoint" />
+            <mxPoint x="390" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
